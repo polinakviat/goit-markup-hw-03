@@ -115,7 +115,7 @@ img {
 }
 
 .contacts {
-    display: flex;
+    display: inline-block;
     padding: 24px 0;
     padding-left: auto;
     font-size: 1em;
@@ -193,7 +193,7 @@ img {
 
 
 .button {
-    border-color: #4D5AE5;
+    border: none;
     border-radius: 4px;
     padding: 16px 32px;
     display: block;
@@ -207,7 +207,6 @@ img {
     color: #FFFFFF;
 }
 .button:hover {
-    border-color: #404BBF;
     background-color: #404BBF;
     color: #FFFFFF;
 }
